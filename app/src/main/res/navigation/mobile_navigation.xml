@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_songs">
+
+    <fragment
+        android:id="@+id/navigation_songs"
+        android:name="se.miun.dt002g.maxel.ui.songs.SongsFragment"
+        android:label="@string/title_songs"
+        tools:layout="@layout/fragment_songs" />
+
+    <fragment
+        android:id="@+id/navigation_albums"
+        android:name="se.miun.dt002g.maxel.ui.albums.AlbumsFragment"
+        android:label="@string/title_album"
+        tools:layout="@layout/fragment_albums" />
+
+    <fragment
+        android:id="@+id/navigation_artists"
+        android:name="se.miun.dt002g.maxel.ui.artists.ArtistsFragment"
+        android:label="@string/title_artists"
+        tools:layout="@layout/fragment_artists" />
+
+    <fragment
+        android:id="@+id/navigation_playlists"
+        android:name="se.miun.dt002g.maxel.ui.playlists.PlaylistsFragment"
+        android:label="@string/title_playlists"
+        tools:layout="@layout/fragment_playlists" />
+
+    <fragment
+        android:id="@+id/navigation_genres"
+        android:name="se.miun.dt002g.maxel.ui.genres.GenresFragment"
+        android:label="@string/title_genres"
+        tools:layout="@layout/fragment_genres" />
+</navigation>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Maxel Music Player</string>
+    <string name="title_songs">Songs</string>
+    <string name="title_album">Albums</string>
+    <string name="title_artists">Artists</string>
+    <string name="title_playlists">Playlists</string>
+    <string name="title_genres">Genres</string>
+    <string name="add_to_playlist">Add to playlist...</string>
+    <string name="help">Help</string>
+    <string name="instructions"> To show all songs, show songs by album, artist, playlist or genre, use the tabs in the bottom of the screen.\n\nTap an album, artist, playlist or genre to expand it.\n\nTo add a song to an existing playlist or create a new one, long-press a song and then select or create playlist.\n\nTo control music playback, use the controls near the bottom of the screen.</string>
+</resources>
